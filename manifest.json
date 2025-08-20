@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "PastVu Decade Selector",
+  "version": "1.0",
+  "description": "A simple Chrome extension.",
+  "permissions": ["scripting", "cookies", "activeTab"],
+  "host_permissions": ["https://pastvu.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://pastvu.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "128": "ic128.png"
+    }
+  }
+}

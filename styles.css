@@ -1,0 +1,50 @@
+.fringe-base {
+    margin: 1px;
+    color: #f2f2f2;
+    border: 1px solid #C3C7DD;
+    background-color: #285991;
+    box-shadow: 0 0 0 1px #000, 0 2px 4px 0 #222;
+}
+
+.fringe-base.fringe-button {
+    position: relative;
+    width: auto;
+}
+
+.fringe-button-text {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 2px;
+}
+
+.fringe-base.fringe-list {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.decade-item {
+    border: 1px solid transparent;
+    padding: 5px 4px;
+    margin: 2px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.decade-item:hover {
+    border-color: #C3C7DD;
+}
+
+.decade-item.selected {
+    box-shadow: inset 0 1px 1px 1px #1C1C1C;
+    background-color: #474747;
+    border: 1px solid #707070;
+}
