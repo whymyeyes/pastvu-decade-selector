@@ -2,6 +2,8 @@
 
 This Chrome extension allows you to quickly select decades (80s, 90s, etc.) on PastVu.com for easier browsing of historical photos.
 
+![Extension Screenshot](img/readme_screenshot.png)
+
 ## Features
 - One-click decade selection
 - Fast switching between different time periods
