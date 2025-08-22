@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PastVu Decade Selector",
   "version": "1.0",
-  "description": "A simple Chrome extension.",
+  "description": "A Chrome extension that makes it easier to view PastVu photos by decade (e.g. 1980s, 1990s, etc.).",
   "permissions": ["cookies"],
   "host_permissions": ["https://pastvu.com/*"],
   "content_scripts": [
