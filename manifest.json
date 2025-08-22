@@ -3,7 +3,7 @@
   "name": "PastVu Decade Selector",
   "version": "1.0",
   "description": "A simple Chrome extension.",
-  "permissions": ["scripting", "cookies", "activeTab"],
+  "permissions": ["cookies"],
   "host_permissions": ["https://pastvu.com/*"],
   "content_scripts": [
     {
